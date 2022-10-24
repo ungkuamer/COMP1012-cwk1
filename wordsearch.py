@@ -31,7 +31,7 @@ def valid_wordlist(wordlist: list) -> bool: # to be checked
         if type(puzzle[count]) != str:
             flag = False
         count += 1
-    return Flag
+    return flag
 
 def get_positions(puzzle: list, word: str) -> list: # to be checked
     found_chars = [word[0]]
